@@ -34,11 +34,12 @@ final class GameSceneViewController: UIViewController {
     
     
 // MARK: IBAction
+    // обработка нажатия на ответы
     @IBAction func pressingTheAnswerButton(sender: UIButton!) {
         hideQuestion()
         ringhtAnswer == sender.tag ? сlickingOnTheCorrectAnswer() : theGameIsLost()
     }
-    
+    // обработка нажатия на подсказки
     @IBAction func hintButtonClick(sender: UIButton!) {
         switch sender {
         case fiftyFifty: hintFiftyFifty()
