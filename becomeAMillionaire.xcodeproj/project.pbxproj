@@ -7,19 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5E89AD289D300000C1E60E /* DifficultyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89AC289D300000C1E60E /* DifficultyModel.swift */; };
+		CC5E89B1289D338300C1E60E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89B0289D338300C1E60E /* Question.swift */; };
+		CC5E89B428A1086700C1E60E /* GameSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89B328A1086700C1E60E /* GameSceneViewController.swift */; };
+		CC5E89B728A2674000C1E60E /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89B628A2674000C1E60E /* GameSession.swift */; };
+		CC5E89B928A2711F00C1E60E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89B828A2711F00C1E60E /* Game.swift */; };
+		CC5E89BC28A2719700C1E60E /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89BB28A2719700C1E60E /* Records.swift */; };
+		CC5E89C028A273EF00C1E60E /* Observeble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89BF28A273EF00C1E60E /* Observeble.swift */; };
+		CC5E89C328A275AA00C1E60E /* RecordCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89C228A275AA00C1E60E /* RecordCaretaker.swift */; };
+		CC5E89C628A2784400C1E60E /* QuestionCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89C528A2784400C1E60E /* QuestionCaretaker.swift */; };
+		CC5E89C928A27F2700C1E60E /* DifficultyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89C828A27F2700C1E60E /* DifficultyStrategy.swift */; };
+		CC5E89CB28A2879000C1E60E /* EasyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89CA28A2879000C1E60E /* EasyStrategy.swift */; };
+		CC5E89CD28A287D500C1E60E /* MediumStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89CC28A287D500C1E60E /* MediumStrategy.swift */; };
+		CC5E89CF28A288C200C1E60E /* HardStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89CE28A288C200C1E60E /* HardStrategy.swift */; };
+		CC5E89D228A293CB00C1E60E /* DifficultyFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89D128A293CB00C1E60E /* DifficultyFacade.swift */; };
+		CC5E89D528A295D800C1E60E /* QuestionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89D428A295D800C1E60E /* QuestionBuilder.swift */; };
+		CC5E89DA28A4E95B00C1E60E /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89D928A4E95B00C1E60E /* RecordsViewController.swift */; };
+		CC5E89DD28A4E9BD00C1E60E /* RecordsVC+TVDataSourse+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89DC28A4E9BD00C1E60E /* RecordsVC+TVDataSourse+Delegate.swift */; };
+		CC5E89E528A4F2D600C1E60E /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89E328A4F2D600C1E60E /* RecordsTableViewCell.swift */; };
+		CC5E89E628A4F2D600C1E60E /* RecordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E89E428A4F2D600C1E60E /* RecordsTableViewCell.xib */; };
+		CC5E89E828A4FD5F00C1E60E /* RecordModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89E728A4FD5F00C1E60E /* RecordModelView.swift */; };
+		CC5E89EA28A53F3B00C1E60E /* RecordViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89E928A53F3B00C1E60E /* RecordViewModelFactory.swift */; };
+		CC5E89ED28A548D300C1E60E /* UITableView(register+dequeue).swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89EC28A548D300C1E60E /* UITableView(register+dequeue).swift */; };
+		CC5E89EF28A548F300C1E60E /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89EE28A548F300C1E60E /* ReusableView.swift */; };
+		CC5E89F128A624A200C1E60E /* AddQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89F028A624A200C1E60E /* AddQuestionViewController.swift */; };
+		CC5E89F328A624BF00C1E60E /* AddQuestionVC+TVDataSourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89F228A624BF00C1E60E /* AddQuestionVC+TVDataSourse.swift */; };
+		CC5E89F728A62BE900C1E60E /* AddQuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89F528A62BE900C1E60E /* AddQuestionTableViewCell.swift */; };
+		CC5E89F828A62BE900C1E60E /* AddQuestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E89F628A62BE900C1E60E /* AddQuestionTableViewCell.xib */; };
+		CC5E89FA28A63A6600C1E60E /* User'sQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89F928A63A6600C1E60E /* User'sQuestionsViewController.swift */; };
+		CC5E89FD28A63C5500C1E60E /* User'sQuestionsVC+TVDataSourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89FC28A63C5500C1E60E /* User'sQuestionsVC+TVDataSourse.swift */; };
+		CC5E89FF28A63C7500C1E60E /* UsersQuestionsVC+TVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E89FE28A63C7500C1E60E /* UsersQuestionsVC+TVDelegate.swift */; };
 		CC643151289D07A3008893B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643150289D07A3008893B9 /* AppDelegate.swift */; };
 		CC643153289D07A3008893B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643152289D07A3008893B9 /* SceneDelegate.swift */; };
-		CC643155289D07A3008893B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643154289D07A3008893B9 /* ViewController.swift */; };
+		CC643155289D07A3008893B9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC643154289D07A3008893B9 /* MenuViewController.swift */; };
 		CC643158289D07A3008893B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC643156289D07A3008893B9 /* Main.storyboard */; };
 		CC64315A289D07A5008893B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC643159289D07A5008893B9 /* Assets.xcassets */; };
 		CC64315D289D07A5008893B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC64315B289D07A5008893B9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC5E89AC289D300000C1E60E /* DifficultyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyModel.swift; sourceTree = "<group>"; };
+		CC5E89B0289D338300C1E60E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CC5E89B328A1086700C1E60E /* GameSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneViewController.swift; sourceTree = "<group>"; };
+		CC5E89B628A2674000C1E60E /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		CC5E89B828A2711F00C1E60E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CC5E89BB28A2719700C1E60E /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		CC5E89BF28A273EF00C1E60E /* Observeble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observeble.swift; sourceTree = "<group>"; };
+		CC5E89C228A275AA00C1E60E /* RecordCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCaretaker.swift; sourceTree = "<group>"; };
+		CC5E89C528A2784400C1E60E /* QuestionCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCaretaker.swift; sourceTree = "<group>"; };
+		CC5E89C828A27F2700C1E60E /* DifficultyStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyStrategy.swift; sourceTree = "<group>"; };
+		CC5E89CA28A2879000C1E60E /* EasyStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStrategy.swift; sourceTree = "<group>"; };
+		CC5E89CC28A287D500C1E60E /* MediumStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumStrategy.swift; sourceTree = "<group>"; };
+		CC5E89CE28A288C200C1E60E /* HardStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardStrategy.swift; sourceTree = "<group>"; };
+		CC5E89D128A293CB00C1E60E /* DifficultyFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyFacade.swift; sourceTree = "<group>"; };
+		CC5E89D428A295D800C1E60E /* QuestionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBuilder.swift; sourceTree = "<group>"; };
+		CC5E89D928A4E95B00C1E60E /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		CC5E89DC28A4E9BD00C1E60E /* RecordsVC+TVDataSourse+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsVC+TVDataSourse+Delegate.swift"; sourceTree = "<group>"; };
+		CC5E89E328A4F2D600C1E60E /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		CC5E89E428A4F2D600C1E60E /* RecordsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordsTableViewCell.xib; sourceTree = "<group>"; };
+		CC5E89E728A4FD5F00C1E60E /* RecordModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModelView.swift; sourceTree = "<group>"; };
+		CC5E89E928A53F3B00C1E60E /* RecordViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModelFactory.swift; sourceTree = "<group>"; };
+		CC5E89EC28A548D300C1E60E /* UITableView(register+dequeue).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView(register+dequeue).swift"; sourceTree = "<group>"; };
+		CC5E89EE28A548F300C1E60E /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		CC5E89F028A624A200C1E60E /* AddQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionViewController.swift; sourceTree = "<group>"; };
+		CC5E89F228A624BF00C1E60E /* AddQuestionVC+TVDataSourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddQuestionVC+TVDataSourse.swift"; sourceTree = "<group>"; };
+		CC5E89F528A62BE900C1E60E /* AddQuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionTableViewCell.swift; sourceTree = "<group>"; };
+		CC5E89F628A62BE900C1E60E /* AddQuestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddQuestionTableViewCell.xib; sourceTree = "<group>"; };
+		CC5E89F928A63A6600C1E60E /* User'sQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User'sQuestionsViewController.swift"; sourceTree = "<group>"; };
+		CC5E89FC28A63C5500C1E60E /* User'sQuestionsVC+TVDataSourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User'sQuestionsVC+TVDataSourse.swift"; sourceTree = "<group>"; };
+		CC5E89FE28A63C7500C1E60E /* UsersQuestionsVC+TVDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsersQuestionsVC+TVDelegate.swift"; sourceTree = "<group>"; };
 		CC64314D289D07A3008893B9 /* becomeAMillionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = becomeAMillionaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC643150289D07A3008893B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC643152289D07A3008893B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC643154289D07A3008893B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC643154289D07A3008893B9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CC643157289D07A3008893B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC643159289D07A5008893B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC64315C289D07A5008893B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +97,209 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5E89A9289D2E9D00C1E60E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89AA289D2EBB00C1E60E /* Menu Screen */,
+				CC5E89B228A1083E00C1E60E /* Game Screen */,
+				CC5E89D628A3CB0C00C1E60E /* Record Screen */,
+				CC5E89D728A3CB1800C1E60E /* Add Question Screen */,
+				CC5E89D828A3CB2E00C1E60E /* User's Question Screen */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CC5E89AA289D2EBB00C1E60E /* Menu Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC643154289D07A3008893B9 /* MenuViewController.swift */,
+			);
+			path = "Menu Screen";
+			sourceTree = "<group>";
+		};
+		CC5E89AB289D2FEA00C1E60E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89B528A2672C00C1E60E /* Singleton */,
+				CC5E89AF289D337500C1E60E /* Question */,
+				CC5E89BA28A2718500C1E60E /* Records */,
+				CC5E89AE289D307C00C1E60E /* Difficulty */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC5E89AE289D307C00C1E60E /* Difficulty */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89AC289D300000C1E60E /* DifficultyModel.swift */,
+			);
+			path = Difficulty;
+			sourceTree = "<group>";
+		};
+		CC5E89AF289D337500C1E60E /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89B0289D338300C1E60E /* Question.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		CC5E89B228A1083E00C1E60E /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89B328A1086700C1E60E /* GameSceneViewController.swift */,
+			);
+			path = "Game Screen";
+			sourceTree = "<group>";
+		};
+		CC5E89B528A2672C00C1E60E /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89B628A2674000C1E60E /* GameSession.swift */,
+				CC5E89B828A2711F00C1E60E /* Game.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		CC5E89BA28A2718500C1E60E /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89BB28A2719700C1E60E /* Records.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		CC5E89BD28A2738F00C1E60E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89D328A295B700C1E60E /* Question Builder */,
+				CC5E89D028A293B500C1E60E /* Difficulty Facade */,
+				CC5E89C728A27EEC00C1E60E /* Difficulty Strategy */,
+				CC5E89C428A277F700C1E60E /* Question Caretaker */,
+				CC5E89C128A2756C00C1E60E /* Record Caretaker */,
+				CC5E89BE28A273E200C1E60E /* Observeble */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CC5E89BE28A273E200C1E60E /* Observeble */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89BF28A273EF00C1E60E /* Observeble.swift */,
+			);
+			path = Observeble;
+			sourceTree = "<group>";
+		};
+		CC5E89C128A2756C00C1E60E /* Record Caretaker */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89C228A275AA00C1E60E /* RecordCaretaker.swift */,
+			);
+			path = "Record Caretaker";
+			sourceTree = "<group>";
+		};
+		CC5E89C428A277F700C1E60E /* Question Caretaker */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89C528A2784400C1E60E /* QuestionCaretaker.swift */,
+			);
+			path = "Question Caretaker";
+			sourceTree = "<group>";
+		};
+		CC5E89C728A27EEC00C1E60E /* Difficulty Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89C828A27F2700C1E60E /* DifficultyStrategy.swift */,
+				CC5E89CA28A2879000C1E60E /* EasyStrategy.swift */,
+				CC5E89CC28A287D500C1E60E /* MediumStrategy.swift */,
+				CC5E89CE28A288C200C1E60E /* HardStrategy.swift */,
+			);
+			path = "Difficulty Strategy";
+			sourceTree = "<group>";
+		};
+		CC5E89D028A293B500C1E60E /* Difficulty Facade */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89D128A293CB00C1E60E /* DifficultyFacade.swift */,
+			);
+			path = "Difficulty Facade";
+			sourceTree = "<group>";
+		};
+		CC5E89D328A295B700C1E60E /* Question Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89D428A295D800C1E60E /* QuestionBuilder.swift */,
+			);
+			path = "Question Builder";
+			sourceTree = "<group>";
+		};
+		CC5E89D628A3CB0C00C1E60E /* Record Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89E228A4F2C700C1E60E /* RecordsCell */,
+				CC5E89D928A4E95B00C1E60E /* RecordsViewController.swift */,
+				CC5E89DC28A4E9BD00C1E60E /* RecordsVC+TVDataSourse+Delegate.swift */,
+			);
+			path = "Record Screen";
+			sourceTree = "<group>";
+		};
+		CC5E89D728A3CB1800C1E60E /* Add Question Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89F428A62B8000C1E60E /* AddQuestionCell */,
+				CC5E89F028A624A200C1E60E /* AddQuestionViewController.swift */,
+				CC5E89F228A624BF00C1E60E /* AddQuestionVC+TVDataSourse.swift */,
+			);
+			path = "Add Question Screen";
+			sourceTree = "<group>";
+		};
+		CC5E89D828A3CB2E00C1E60E /* User's Question Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89FB28A63C1D00C1E60E /* Users's Qustion Cell */,
+				CC5E89F928A63A6600C1E60E /* User'sQuestionsViewController.swift */,
+				CC5E89FC28A63C5500C1E60E /* User'sQuestionsVC+TVDataSourse.swift */,
+				CC5E89FE28A63C7500C1E60E /* UsersQuestionsVC+TVDelegate.swift */,
+			);
+			path = "User's Question Screen";
+			sourceTree = "<group>";
+		};
+		CC5E89E228A4F2C700C1E60E /* RecordsCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89E728A4FD5F00C1E60E /* RecordModelView.swift */,
+				CC5E89E928A53F3B00C1E60E /* RecordViewModelFactory.swift */,
+				CC5E89E328A4F2D600C1E60E /* RecordsTableViewCell.swift */,
+				CC5E89E428A4F2D600C1E60E /* RecordsTableViewCell.xib */,
+			);
+			path = RecordsCell;
+			sourceTree = "<group>";
+		};
+		CC5E89EB28A548AC00C1E60E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89EC28A548D300C1E60E /* UITableView(register+dequeue).swift */,
+				CC5E89EE28A548F300C1E60E /* ReusableView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC5E89F428A62B8000C1E60E /* AddQuestionCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E89F528A62BE900C1E60E /* AddQuestionTableViewCell.swift */,
+				CC5E89F628A62BE900C1E60E /* AddQuestionTableViewCell.xib */,
+			);
+			path = AddQuestionCell;
+			sourceTree = "<group>";
+		};
+		CC5E89FB28A63C1D00C1E60E /* Users's Qustion Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Users's Qustion Cell";
+			sourceTree = "<group>";
+		};
 		CC643144289D07A3008893B9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +319,34 @@
 		CC64314F289D07A3008893B9 /* becomeAMillionaire */ = {
 			isa = PBXGroup;
 			children = (
-				CC643150289D07A3008893B9 /* AppDelegate.swift */,
-				CC643152289D07A3008893B9 /* SceneDelegate.swift */,
-				CC643154289D07A3008893B9 /* ViewController.swift */,
-				CC643156289D07A3008893B9 /* Main.storyboard */,
+				CC643165289D07DB008893B9 /* Fundamentals */,
+				CC5E89A9289D2E9D00C1E60E /* View Controllers */,
+				CC5E89EB28A548AC00C1E60E /* Extension */,
+				CC5E89AB289D2FEA00C1E60E /* Model */,
+				CC5E89BD28A2738F00C1E60E /* Helpers */,
+				CC643164289D07B5008893B9 /* Storyboard */,
 				CC643159289D07A5008893B9 /* Assets.xcassets */,
-				CC64315B289D07A5008893B9 /* LaunchScreen.storyboard */,
 				CC64315E289D07A5008893B9 /* Info.plist */,
 			);
 			path = becomeAMillionaire;
+			sourceTree = "<group>";
+		};
+		CC643164289D07B5008893B9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC643156289D07A3008893B9 /* Main.storyboard */,
+				CC64315B289D07A5008893B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CC643165289D07DB008893B9 /* Fundamentals */ = {
+			isa = PBXGroup;
+			children = (
+				CC643150289D07A3008893B9 /* AppDelegate.swift */,
+				CC643152289D07A3008893B9 /* SceneDelegate.swift */,
+			);
+			path = Fundamentals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +409,8 @@
 			files = (
 				CC64315D289D07A5008893B9 /* LaunchScreen.storyboard in Resources */,
 				CC64315A289D07A5008893B9 /* Assets.xcassets in Resources */,
+				CC5E89E628A4F2D600C1E60E /* RecordsTableViewCell.xib in Resources */,
+				CC5E89F828A62BE900C1E60E /* AddQuestionTableViewCell.xib in Resources */,
 				CC643158289D07A3008893B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +422,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC643155289D07A3008893B9 /* ViewController.swift in Sources */,
+				CC5E89B1289D338300C1E60E /* Question.swift in Sources */,
+				CC5E89F728A62BE900C1E60E /* AddQuestionTableViewCell.swift in Sources */,
+				CC5E89D228A293CB00C1E60E /* DifficultyFacade.swift in Sources */,
+				CC5E89DA28A4E95B00C1E60E /* RecordsViewController.swift in Sources */,
+				CC5E89E528A4F2D600C1E60E /* RecordsTableViewCell.swift in Sources */,
+				CC5E89FF28A63C7500C1E60E /* UsersQuestionsVC+TVDelegate.swift in Sources */,
+				CC5E89B428A1086700C1E60E /* GameSceneViewController.swift in Sources */,
+				CC5E89CD28A287D500C1E60E /* MediumStrategy.swift in Sources */,
+				CC5E89ED28A548D300C1E60E /* UITableView(register+dequeue).swift in Sources */,
+				CC5E89C328A275AA00C1E60E /* RecordCaretaker.swift in Sources */,
+				CC5E89AD289D300000C1E60E /* DifficultyModel.swift in Sources */,
+				CC5E89C928A27F2700C1E60E /* DifficultyStrategy.swift in Sources */,
+				CC5E89BC28A2719700C1E60E /* Records.swift in Sources */,
+				CC5E89EF28A548F300C1E60E /* ReusableView.swift in Sources */,
+				CC5E89DD28A4E9BD00C1E60E /* RecordsVC+TVDataSourse+Delegate.swift in Sources */,
+				CC5E89CB28A2879000C1E60E /* EasyStrategy.swift in Sources */,
+				CC5E89F328A624BF00C1E60E /* AddQuestionVC+TVDataSourse.swift in Sources */,
+				CC5E89D528A295D800C1E60E /* QuestionBuilder.swift in Sources */,
+				CC643155289D07A3008893B9 /* MenuViewController.swift in Sources */,
+				CC5E89EA28A53F3B00C1E60E /* RecordViewModelFactory.swift in Sources */,
+				CC5E89B728A2674000C1E60E /* GameSession.swift in Sources */,
 				CC643151289D07A3008893B9 /* AppDelegate.swift in Sources */,
+				CC5E89E828A4FD5F00C1E60E /* RecordModelView.swift in Sources */,
+				CC5E89C628A2784400C1E60E /* QuestionCaretaker.swift in Sources */,
+				CC5E89FA28A63A6600C1E60E /* User'sQuestionsViewController.swift in Sources */,
+				CC5E89FD28A63C5500C1E60E /* User'sQuestionsVC+TVDataSourse.swift in Sources */,
 				CC643153289D07A3008893B9 /* SceneDelegate.swift in Sources */,
+				CC5E89F128A624A200C1E60E /* AddQuestionViewController.swift in Sources */,
+				CC5E89C028A273EF00C1E60E /* Observeble.swift in Sources */,
+				CC5E89B928A2711F00C1E60E /* Game.swift in Sources */,
+				CC5E89CF28A288C200C1E60E /* HardStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
