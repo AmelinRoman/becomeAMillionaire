@@ -55,7 +55,7 @@ final class RecordsViewController: UIViewController {
         tableView.register(RecordsTableViewCell.self)
         self.viewModels = self.viewModelFactory.constructorViewModels(from: recordsList)
     }
-    
+    // Удаление рекордов
     private func clearRecords(action: UIAlertAction! = nil) {
         Game.shared.clearRecord()
         self.tableView.reloadData()
